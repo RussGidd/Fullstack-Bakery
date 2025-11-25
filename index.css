@@ -1,0 +1,75 @@
+header {
+  color: firebrick;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sidebar-section {
+  display: flex;
+  column-gap: 20px;
+}
+#content-section h1 {
+  margin-top: 0;
+}
+.brand {
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+nav {
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+nav a {
+  text-decoration: none;
+  padding: 0px 5px;
+  color: #000000;
+}
+nav a:hover {
+  color: brown;
+}
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: firebrick;
+  color: #ffffff;
+  padding: 8px 60px 8px 8px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px;
+}
+button:hover {
+  background-color: rgb(114, 34, 34);
+}
+.testimonial {
+  background-color: rgb(243, 243, 243);
+  text-align: left;
+  font-style: italic;
+  font-weight: 200;
+  padding: 10px 20px 10px 20px;
+  margin: 20px 0px 20px 0px;
+}
+footer {
+  background-color: #000000;
+  padding: 0.1em;
+  margin: 20px 0px 20px 0px;
+  color: #ffffff;
+  text-align: center;
+}
